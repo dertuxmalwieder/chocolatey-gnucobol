@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gnucobol</id>
+    <version>3.1.2.20210902</version>
+    <title>GnuCOBOL</title>
+    <authors>Keisuke Nishida, Roger While, Simon Sobisch, Sergey Kashyrin, Ron Norman</authors>
+    <owners>Cthulhux</owners>
+    <projectUrl>https://gnucobol.sourceforge.io</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/gnucobol/code/HEAD/tree/branches/gnucobol-3.x/</projectSourceUrl>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <tags>gnu cobol gnucobol opencobol compiler</tags>
+    <summary>A free COBOL compiler</summary>
+    <description>GnuCOBOL (formerly OpenCOBOL) is a free COBOL compiler. cobc translates COBOL source to executable using intermediate C, designated C compiler and linker.</description>
+  </metadata>
+</package>
