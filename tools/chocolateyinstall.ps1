@@ -1,6 +1,6 @@
 ﻿$packageName= 'GnuCOBOL'
 $distDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://arnoldtrembley.com/GC312-BDB-rename-7z-to-exe.7z'
+$url        = 'https://arnoldtrembley.com/GC312-BDB-SP2-rename-7z-to-exe.7z'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,8 +10,8 @@ $packageArgs = @{
 
   softwareName  = 'GnuCOBOL*'
 
-  checksum      = 'ED7CE3A65390490222501DBD94A1D8E2'
-  checksumType  = 'md5'
+  checksum      = '8949A1985B5E4E2C4DE622E56B86E05FE85DAA0906E8A690C478CC2542DE4BD7'
+  checksumType  = 'sha256'
 }
 
 Install-ChocolateyZipPackage @packageArgs
