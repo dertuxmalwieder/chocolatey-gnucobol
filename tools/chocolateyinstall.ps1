@@ -1,6 +1,6 @@
 ﻿$packageName= 'GnuCOBOL'
 $distDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://arnoldtrembley.com/GC312-BDB-SP2-rename-7z-to-exe.7z'
+$url        = 'https://arnoldtrembley.com/GC32-BDB-SP2-rename-7z-to-exe.7z'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'GnuCOBOL*'
 
-  checksum      = '8949A1985B5E4E2C4DE622E56B86E05FE85DAA0906E8A690C478CC2542DE4BD7'
+  checksum      = '095C6C0F5B4BFA6D2609AE90D26E184510CB5A24B7644A4FB62AB7A6F9E7B2DC'
   checksumType  = 'sha256'
 }
 
