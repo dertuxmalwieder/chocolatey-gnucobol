@@ -1,6 +1,6 @@
 ﻿$packageName= 'GnuCOBOL'
 $distDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://arnoldtrembley.com/GC32-BDB-SP2-rename-7z-to-exe.7z'
+$url        = 'https://arnoldtrembley.com/GC32-BDB-rename-7z-to-exe.7z'
 
 $packageArgs = @{
   packageName   = $packageName
