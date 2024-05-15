@@ -24,5 +24,6 @@ foreach ($file in $files) {
 
 Install-ChocolateyEnvironmentVariable -VariableName "COB_CONFIG_DIR" -VariableValue "$($distDir)\config"
 Install-ChocolateyEnvironmentVariable -VariableName "COB_CFLAGS" -VariableValue "-I`"$($distDir)\include`""
-Install-ChocolateyEnvironmentVariable -VariableName "COB_LIBRARY_PATH" -VariableValue "/LIBPATH:`"$($distDir)\lib`""
-Install-ChocolateyEnvironmentVariable -VariableName "COB_LIBS" -VariableValue "/LIBPATH:`"$($distDir)\lib\libcob.lib`""
+Install-ChocolateyEnvironmentVariable -VariableName "COB_LIB_PATH" -VariableValue "-L:`"$($distDir)\lib`""
+Install-ChocolateyEnvironmentVariable -VariableName "COB_LIBRARY_PATH" -VariableValue "/LIBPATH:`"$($distDir)\extras`""
+Install-ChocolateyEnvironmentVariable -VariableName "COB_LIBS" -VariableValue "-lcob"

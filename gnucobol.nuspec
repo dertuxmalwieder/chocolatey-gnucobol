@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gnucobol</id>
-    <version>3.2.0.20230731</version>
+    <version>3.2.0.20240515</version>
     <title>GnuCOBOL</title>
     <authors>Keisuke Nishida, Roger While, Simon Sobisch, Sergey Kashyrin, Ron Norman</authors>
     <owners>Cthulhux</owners>
